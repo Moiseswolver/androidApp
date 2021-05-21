@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
         clickmebutton.text ="click"
 
         clickmebutton.setOnClickListener {
-            if (stylesGroup.visibility == View.INVISIBLE){
-                stylesGroup.visibility = View.INVISIBLE
+            if (stylesGroup.visibility == View.VISIBLE){
+                stylesGroup.visibility = View.GONE
             } else {
                 stylesGroup.visibility = View.VISIBLE
             }
